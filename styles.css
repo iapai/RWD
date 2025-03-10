@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 12px;
+    color: #e21818;
+    transition: background-color 0.3s ease;
+}
+
+/* Smartphone */
+@media screen and (min-width: 0px) {
+    body {
+        background-color: #f4e545;
+        font-size: 16px;
+        color: #f5f1f1;
+    }
+    .container {
+       width: 60%;
+       margin: 0 auto;
+}
+
+    img {
+        width: 100%;
+        height: auto;
+}
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #f01c1c;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #f824ed;
+        font-size: 14px;
+        color: #f7f4f4;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #646463;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #626265;
+        font-size: 16px;
+        color: #f9f5f5;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #050505;
+    }
+}
